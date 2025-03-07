@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 
 public class DBConnection {
-	private static final String URL = "jdbc:mysql://localhost:3306/quanlyluong";
+	private static final String URL = "jdbc:mysql://localhost:3306/NguyenQuangNam_K22CNTT1_2210900048";
     private static final String USER = "root"; // Thay bằng tài khoản MySQL của bạn
     private static final String PASSWORD = "nam31804"; // Nếu có mật khẩu thì điền vào
 
