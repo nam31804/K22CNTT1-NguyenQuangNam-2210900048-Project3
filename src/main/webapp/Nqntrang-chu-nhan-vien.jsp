@@ -22,8 +22,8 @@
     <nav>
     <ul>
         <li><a href="Nqntrang-chu-nhan-vien.jsp">🏠 Trang chủ</a></li>
-        <li><a href="Nqnluong-cua-toi.jsp">👥 Thông Tin Cá Nhân</a></li>
-        <li><a href="NqnAllLuong.jsp">💰 Thông Tin lương</a></li>
+        <li><a href="Nqnthong-tin-cn.jsp">👥 Thông Tin Cá Nhân</a></li>
+        <li><a href="Nqnluong-cua-toi.jsp">💰 Thông Tin lương</a></li>
         
         <li><a href="Nqnql-tk-baocao.jsp">📊 Liên Hệ</a></li>
         <li><a href="LogoutServlet" style="color: red;">🚪 Đăng xuất</a></li>
