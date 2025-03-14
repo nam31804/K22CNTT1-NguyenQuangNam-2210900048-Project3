@@ -1,0 +1,131 @@
+/* Đặt nền và màu chữ mặc định */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Căn giữa nội dung */
+}
+
+/* Đặt container riêng cho bảng nhân viên */
+.container-dashboard {
+    max-width: 1100px;
+    margin: 20px auto; /* Thêm khoảng cách phía trên để không bị trùng với menu */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Định dạng tiêu đề */
+h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Định dạng bảng */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+table th {
+    background-color: #4caf50;
+    color: white;
+}
+
+table td {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Định dạng liên kết */
+a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Định dạng ô thông báo không có dữ liệu */
+td[colspan="11"] {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Thêm padding cho các liên kết trong bảng */
+td a {
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+td a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Thêm một khoảng cách cho các liên kết Thêm mới, Sửa, Xóa */
+.action-links {
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.action-links a {
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.action-links a:hover {
+    background-color: #45a049;
+}
+
+/* Định dạng khoảng cách phía dưới các liên kết Thêm mới, Sửa, Xóa */
+.action-links a:last-child {
+    margin-right: 0;
+}
+
+/* Định dạng nút Xóa */
+a.delete-link {
+    display: inline-block; /* Đảm bảo liên kết hiển thị như một nút */
+    padding: 10px 20px; /* Thêm không gian xung quanh văn bản */
+    background-color: red; /* Màu nền đỏ */
+    color: white; /* Màu văn bản trắng */
+    font-weight: bold; /* Làm đậm văn bản */
+    border-radius: 5px; /* Bo tròn các góc */
+    text-align: center; /* Căn giữa văn bản */
+    text-decoration: none; /* Loại bỏ gạch chân mặc định */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Thêm hiệu ứng chuyển màu nền và chuyển động */
+}
+
+a.delete-link:hover {
+    background-color: #b30000; /* Màu đỏ đậm hơn khi hover */
+    transform: scale(1.05); /* Phóng to nhẹ khi hover */
+}
+
+/* Thêm hiệu ứng khi nhấn nút */
+a.delete-link:active {
+    transform: scale(0.98); /* Nhỏ lại khi nhấn */
+}

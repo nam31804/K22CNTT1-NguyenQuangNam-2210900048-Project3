@@ -1,0 +1,70 @@
+/* Reset mặc định */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    color: #000; /* Đặt màu chữ mặc định là đen */
+    text-align: center;
+    padding: 50px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    color: #000; /* Đặt màu chữ h2 là đen */
+}
+
+/* Định dạng thanh điều hướng */
+nav {
+    background: linear-gradient(to right, #4facfe, #00f2fe); /* Giữ màu gradient giống ảnh */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Danh sách menu */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Các mục trong menu */
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000; /* Đặt màu chữ của menu là đen */
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+/* Tạo màu cho nút Đăng xuất */
+nav ul li a[href="LogoutServlet"] {
+    background: #ADD8E6; /* Màu nền cho nút Đăng xuất */
+    color: #000; /* Chữ nút Đăng xuất màu đen */
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+nav ul li a[href="LogoutServlet"]:hover {
+    background: #ff3333; /* Tông đậm hơn khi hover */
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.8);
+}
