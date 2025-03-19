@@ -15,17 +15,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Trang Chủ Nhân Viên</title>
-     <link rel="stylesheet" href="css/homead.css">
+     <link rel="stylesheet" href="css/Nqnhomead.css">
 </head>
 <body>
     <h2>Chào mừng, <%= nguoiDung.getHoTen() %>!</h2> <!-- ✅ Hiển thị tên nhân viên -->
     <nav>
     <ul>
-        <li><a href="Nqntrang-chu-nhan-vien.jsp">🏠 Trang chủ</a></li>
-        <li><a href="Nqnthong-tin-cn.jsp">👥 Thông Tin Cá Nhân</a></li>
+        <li><a href="Nqnnvtt.jsp">🏠 Trang chủ</a></li>
+        <li><a href="Nqnthongtin.jsp">👥 Thông Tin Cá Nhân</a></li>
         <li><a href="Nqnluong-cua-toi.jsp">💰 Thông Tin lương</a></li>
         
-        <li><a href="Nqnql-tk-baocao.jsp">📊 Liên Hệ</a></li>
         <li><a href="LogoutServlet" style="color: red;">🚪 Đăng xuất</a></li>
     </ul>
 </nav>

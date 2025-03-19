@@ -17,7 +17,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Hệ thống quản lý</title>
-    <link rel="stylesheet" href="css/homead.css">
+    <link rel="stylesheet" href="css/Nqnhomead.css">
 </head>
 <body>
 
@@ -25,11 +25,9 @@
 
 <nav>
     <ul>
-        <li><a href="Nqntrang-chu-admin.jsp">🏠 Trang chủ</a></li>
+        <li><a href="Nqnadtt.jsp">🏠 Trang chủ</a></li>
         <li><a href="Nqndashboard.jsp">👥 Quản lý nhân viên</a></li>
         <li><a href="NqnAllLuong.jsp">💰 Quản lý bảng lương</a></li>
-        
-        <li><a href="Nqnql-tk-baocao.jsp">📊 Thống kê & Báo cáo</a></li>
         <li><a href="LogoutServlet" style="color: red;">🚪 Đăng xuất</a></li>
     </ul>
 </nav>

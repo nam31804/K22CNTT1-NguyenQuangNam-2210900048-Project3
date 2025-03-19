@@ -61,7 +61,7 @@
 <div class="container-dashboard">
     <h2>Bảng Lương</h2>
      <div class="action-links">
-            <a href="Nqnthemluong.jsp">Thêm nhân viên</a>
+            
         </div>
     <table border="1">
         <tr>
@@ -86,16 +86,15 @@
             <td><%= currencyFormat.format(rs.getDouble("bao_hiem")) %> VND</td>
             <td><%= currencyFormat.format(rs.getDouble("phu_cap")) %> VND</td>
             <td>
-               <div class="action-links"> <a href="SuaLuongServlet?ho_ten=<%= rs.getString("ho_ten") %>&thang=<%= rs.getInt("thang") %>&nam=<%= rs.getInt("nam") %>">Cập Nhật</a> </div> 
-              <div class="action-links"> 
-      <a class="delete-link" href="XoaLuongServlet?ho_ten=<%= rs.getString("ho_ten") %>&thang=<%= rs.getInt("thang") %>&nam=<%= rs.getInt("nam") %>" onclick="return confirm('Bạn có chắc muốn xóa không?');">Xóa</a> 
-   </div>
+               <div class="action-links"> <a href="NqnSuaLuongServlet?ho_ten=<%= rs.getString("ho_ten") %>&thang=<%= rs.getInt("thang") %>&nam=<%= rs.getInt("nam") %>">Cập Nhật</a> </div> 
+              
             </td>
         </tr>
         <% } %>
     </table>
     </div>
 </body>
+<jsp:include page="Nqnfooter.jsp" />
 </html>
 
 <%

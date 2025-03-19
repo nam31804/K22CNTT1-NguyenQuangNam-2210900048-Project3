@@ -16,8 +16,10 @@
 <html>
 <head>
     <title>Sửa nhân viên</title>
+    <link rel="stylesheet" type="text/css" href="css/Nqntnv.css">
 </head>
 <body>
+<jsp:include page="Nqntrang-chu-admin.jsp" />
     <h2>Sửa nhân viên</h2>
     <form action="SuaNhanVienServlet" method="post">
         <input type="hidden" name="ma_nv" value="<%= nhanVien.getMaNV() %>">
@@ -55,4 +57,5 @@
         <button type="submit">Lưu thay đổi</button>
     </form>
 </body>
+<jsp:include page="Nqnfooter.jsp" />
 </html>

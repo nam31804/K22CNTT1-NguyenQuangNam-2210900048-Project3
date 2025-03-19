@@ -90,6 +90,7 @@
     </table>
     </div>
 </body>
+<jsp:include page="Nqnfooter.jsp" />
 </html>
 
 <%

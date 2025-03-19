@@ -32,10 +32,10 @@ public class NqnLoginServlet extends HttpServlet {
             switch (nguoiDung.getVaiTro()) {
                 case "Admin":
                 case "NhanSu":
-                    response.sendRedirect("Nqntrang-chu-admin.jsp");
+                    response.sendRedirect("Nqnadtt.jsp");
                     break;
                 case "NhanVien":
-                    response.sendRedirect("Nqntrang-chu-nhan-vien.jsp");
+                    response.sendRedirect("Nqnnvtt.jsp");
                     break;
                 default:
                     response.sendRedirect("Nqnlogin.jsp?error=Vai trò không hợp lệ!");

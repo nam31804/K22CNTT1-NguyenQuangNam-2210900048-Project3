@@ -95,7 +95,7 @@
                 <td><%= rs.getString("mat_khau") %></td>
                 <td>
                     <div class="action-links"><a href="SuaNhanVienServlet?edit=<%= rs.getInt("ma_nv") %>">Sửa</a> </div> 
-                    <div class="action-links"><a class="delete-link" href="NqnXoaNhanVienServlet?ma_nv=<%= rs.getInt("ma_nv") %>" onclick="return confirm('Bạn có chắc muốn xóa nhân viên này không?');">Xóa</a></div>
+                    <div class="action-links"><a class="delete-link" href="XoaNhanVienServlet?ma_nv=<%= rs.getInt("ma_nv") %>" onclick="return confirm('Bạn có chắc muốn xóa nhân viên này không?');">Xóa</a></div>
                 </td>
             </tr>
             <% }
@@ -107,6 +107,7 @@
         </table>
     </div>
 </body>
+<jsp:include page="Nqnfooter.jsp" />
 </html>
 
 <%
